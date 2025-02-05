@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.section1{
+    width: 100%;
+   
+}
+
+.section1 header{
+    background-color: #303030da;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+header h1{
+    color: rgba(27,255,190);
+    font-size: 25px;
+}
+
+header h1{
+    color: rgba(255,42,42);
+    font-size: 30px;
+}
+
+header ul{
+    margin-top: 10px;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+ul li #Portfolio:hover{
+    color: rgba(255,46,46);
+    text-decoration: underline;
+}
+
+header #sub{
+    background-color: white;
+    padding: 2px 25px;
+    border-radius: 5px;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+header #sub:hover{
+   background-color: rgba(255,46,46);
+   color: white;
+
+} 
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    overflow: hidden;
+    padding: 30px 100px;
+
+}
+.main .left{
+    width: 55%;
+    padding: 50px;
+}
+.left h1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+.left h3{
+    margin-top: 50px;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.left h1 .name{
+    color: #eb804c;
+}
+
+.left p{
+    margin: 40px 0;
+    font-size: 15px;
+}
+
+.left button{
+    padding: 10px 25px;
+    border-radius: 5%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.left button:hover{
+    background-color: black;
+    color: white;
+}
+
+.main .right{
+    background-image: url(./S.jpeg);
+    background-position: -0px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+.section2{
+
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .left{
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+    background-image: url(./S.jpeg);
+    background-position: -0px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    margin-left: 100px;
+    box-shadow: 0 0 20px yellow;
+    border-radius: 50%;
+}
+
+.section2 .right{
+    width: 60%;
+    padding: 20px 100px;
+
+}
+
+.section2 .right h3{
+    margin-top: 180px;
+}
+
+.section2 .right h3 span{
+    color: orange;
+}
+
+.section2 .right h1 span{
+    color: orange;
+}
+
+.section2 .right h1{
+    font-size: 50px;
+}
+
+.section2 .right p{
+    margin: 20px 0;
+}
+
+.section2 .right button{
+    padding: 10px 25px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section2 .right button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.section3{
+    width: 100%;
+    height: 750px;
+    background-color: #f1f1f1;
+    position: relative;
+    text-align: center;
+}
+
+.section3 h1 span{
+    color: orange;
+    line-height: 100px;
+}
+
+.section3 form{
+    width: 400px;
+    background-color: rgba(220,216,216,0.759);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+}
+
+form input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+form textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+form button{
+    padding: 8px 60px;
+    margin-top: 20px;
+    color: rgb(7,5,43);
+    text-transform: uppercase;
+    
+}
